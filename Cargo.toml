@@ -3,6 +3,7 @@ name = "impulse"
 version = "0.1.0"
 authors = ["Daniel Mason <daniel@danielmason.com>"]
 description = "A ShadowDOM framework for client side rendering using wasm-bindgen and server side rendering using the framework of your choice."
+license = "MIT"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
