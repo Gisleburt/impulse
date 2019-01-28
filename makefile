@@ -8,7 +8,7 @@ build: pkg
 
 pkg: src
 	wasm-pack build
-	sed -i ".bak" -e "s/wasm-apolitical-styleguide/@apolitical\/wasm-styleguide/g" pkg/package.json
+	sed -i ".bak" -e 's/"name": "impulse"/"name": "@apolitical\/impulse"/g' pkg/package.json
 	rm pkg/package.json.bak
 
 start: build
