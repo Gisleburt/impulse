@@ -1,12 +1,14 @@
 [package]
 name = "impulse"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Daniel Mason <daniel@danielmason.com>"]
-description = "A ShadowDOM framework for client side rendering using wasm-bindgen and server side rendering using the framework of your choice."
+description = "A DOM framework for client side rendering using wasm-bindgen and server side rendering using the framework of your choice."
 license = "MIT"
 documentation = "https://github.com/gisleburt/impulse"
 homepage = "https://github.com/gisleburt/impulse"
 repository = "https://github.com/gisleburt/impulse"
+readme = "README.md"
+
 
 [lib]
 crate-type = ["cdylib", "rlib"]
